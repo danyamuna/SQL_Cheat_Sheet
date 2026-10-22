@@ -74,5 +74,5 @@ To restore a backup file to the database management system, we can use the RESTO
 RESTORE DATABASE MyDatabase1
 FROM DISK = 'C:\MyDatabase1.bak'
 ```
-````
+
 
