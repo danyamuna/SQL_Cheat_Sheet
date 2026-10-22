@@ -182,3 +182,58 @@ SELECT MAX(column_name)
 FROM table_name
 WHERE condition;
 ```
+
+## GROUP BY Statement
+The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country".
+
+The GROUP BY statement is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.
+
+## GROUP BY Syntax
+```md
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+ORDER BY column_name(s);
+```
+
+## Having
+
+The SQL HAVING Clause
+The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions in a direct way.
+
+HAVING Syntax
+```md
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+HAVING condition
+ORDER BY column_name(s);
+```
+## LIKE Operator
+The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+
+There are two wildcards often used in conjunction with the LIKE operator:
+
+> The percent sign (%) represents zero, one, or multiple characters
+> The underscore sign (_) represents one, single character
+
+
+> Note: MS Access uses an asterisk (*) instead of the percent sign (%), and a question mark (?) instead of the underscore (_).
+
+The percent sign and the underscore can also be used in combinations!
+```md
+LIKE Syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE columnN LIKE pattern;
+```
+> Tip: You can also combine any number of conditions using AND or OR operators.
+Wildcard Characters
+A wildcard character is used to substitute one or more characters in a string.
+
+Wildcard characters are used with the LIKE operator. The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+
+Wildcard Characters in SQL Server
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](C:/Users/engda/OneDrive/Desktop/assets/images/electrocat.png)
