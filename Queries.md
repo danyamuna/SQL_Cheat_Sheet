@@ -236,4 +236,4 @@ A wildcard character is used to substitute one or more characters in a string.
 Wildcard characters are used with the LIKE operator. The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
 
 Wildcard Characters in SQL Server
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](C:/Users/engda/OneDrive/Desktop/assets/images/electrocat.png)
+![Wildcard Characters in SQL Server](./ta.jpg)
