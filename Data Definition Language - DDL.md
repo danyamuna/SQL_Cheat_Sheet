@@ -36,18 +36,31 @@ CREATE TABLE table_name (
 ```
 
 ## SQL DROP TABLE Statement
-```md
-In SQL, DROP TABLE is used to delete the tables in our database. For example,
 
+In SQL, DROP TABLE is used to delete the tables in our database. For example,
+**Add Column**
+```md
 DROP TABLE Employees;
 ALTER TABLE Employees // Add Column
 ADD Gendor char(1);
+```
+**Rename a Column**
+```md
 ALTER TABLE Employees //Rename a Column
 RENAME COLUMN Gendor TO Gender;
+```
+**Rename Table**
+```md
 ALTER TABLE OldTableName //Rename a Table
 RENAME TO NewTableName;
+```
+**Modify Column in a Table**
+```md
 ALTER TABLE Employees //Modify Column in a Table
 ALTER COLUMN Name VARCHAR(100);
+```
+**Delete Column**
+```md
 ALTER TABLE Employees //Delete a column
 DROP COLUMN Gender;
 ```
