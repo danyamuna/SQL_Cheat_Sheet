@@ -8,3 +8,9 @@
 > use **NEWID()**
 >
 > Order By NEWID();
+
+SQL
+```md
+ALTER DATABASE SCOPED CONFIGURATION SET IDENTITY_CACHE = OFF;
+(ملاحظة: إيقافها قد يقلل الأداء بشكل طفيف جداً غير ملحوظ إلا في الأنظمة الضخمة التي تضيف آلاف الصفوف في الثانية، ولكنه يضمن لك عدم حدوث قفزات مجدداً).
+```
